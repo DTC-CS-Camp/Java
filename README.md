@@ -1,2 +1,2 @@
-# Java
-Session 2 Materials
+# Lesson 0
+Java session
