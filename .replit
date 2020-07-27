@@ -1,0 +1,2 @@
+language = "java10"
+run = "javac -cp Main.java Class.java; java Main.java"
