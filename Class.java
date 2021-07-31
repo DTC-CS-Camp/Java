@@ -2,47 +2,117 @@ import java.io.*;
 import java.util.*;
 
 public class Class {
-	
-	
 	public static void Problem1() {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Input (integer): ");
+		System.out.println("Input: ");
 		int temperature = sc.nextInt();
-		//EDIT CODE BELOW \/
-		
-		if (temperature < 1) System.out.println("nothing");
-		else System.out.println("snowball fight!");
-		
-		//EDIT CODE ABOVE /\
+    
+    //EDIT CODE BELOW \/
+		/*
+		if (temperature >= ){
+      System.out.println("swimming");
+
+    }else if ( && ){ 
+      System.out.println("tennis");
+
+    }else if ( >=  &&  < ){
+      System.out.println("golf");
+
+    }else if ( < ){
+      System.out.println("skiing");
+    
+    }else{
+      System.out.println("others failed");
+    }
+		*/
+    //EDIT CODE ABOVE /\
 	}
 	
 	public static void Problem2() {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Input (lower): ");
-		double lower = sc.nextDouble();
-		System.out.println("Input (upper): ");
-		double higher = sc .nextDouble();
-		int guess = 0; 
-		//you have to find a winning guess using lower, higher, conditionals, and loops
-		//ADD CODE BELOW \/
+    System.out.println("Input: ");
+		int num = sc.nextInt();
+
+		//EDIT CODE BELOW \/
+    /*
+      int flag=0;
+      if(  )
+      System.out.println(num+ " is not a prime number");
+
+      for(int factor=   ;    <= num/2; factor   ){
+        // check if num is divisible by factor! increment flag if it is!
+
+      }
+
+      if(flag == ){
+        System.out.println(num+ " is a prime number")
+      }else{
+        System.out.println(num+ " is not a prime number");
+      }
+
 		
-		if (lower <= 1) guess = 2;
-		
-		//ADD CODE ABOVE /\
-		System.out.println("Guess: " + guess); 
+    */
+		//EDIT CODE ABOVE /\
 	}
 	
-	public static void BonusProblem() {
-		//Don't be worried if this problem is hard right now!
-		//It uses something we're learning tomorrow :)
-		//To get the bonus point, you must use a maximum of THREE loops
-		//to print the wanted output. 
-		
-		//Good luck!
-		
-		//ADD CODE BELOW \/
-		
-		
-		//ADD CODE ABOVE /\
+	public static void Problem3() {
+		Scanner sc = new Scanner(System.in);
+    System.out.println("Input: ");
+		int num = sc.nextInt();
+
+		//EDIT CODE BELOW \/
+    /*
+    
+    Math.sqrt(num)
+
+    */
+		//EDIT CODE ABOVE /\
 	}
+
+  public static void Problem4(){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Input: ");
+		int num = sc.nextInt();
+
+    //EDIT CODE BELOW \/
+    /*
+    
+    System.out.print("true");
+    
+    System.out.print("false");
+
+    */
+		//EDIT CODE ABOVE /\
+  }
+
+  public static void Problem5(){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Input: ");
+		int num = sc.nextInt();
+
+    //EDIT CODE BELOW \/
+    /*
+    
+    System.out.print("true");
+    
+    System.out.print("false");
+
+    */
+		//EDIT CODE ABOVE /\
+  }
+
+    public static void Problem6(){
+    
+    //EDIT CODE BELOW \/
+    /*
+
+    System.out.print("*");    
+
+    System.out.print("That's a lot of stars!");    
+
+    */
+		//EDIT CODE ABOVE /\
+  }
+
+
 }
